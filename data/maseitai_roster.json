@@ -1,0 +1,3530 @@
+[
+  {
+    "number": 1,
+    "id": "troll",
+    "name": "Troll",
+    "value": 4,
+    "navia_guard": true,
+    "description": "Navia Guard. Earn 10G when sent to Graveyard by enemy effect or attack.",
+    "movement_profile": "cross1",
+    "movement_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "passive_nav_guard",
+    "dratp_description": "Passive: Navia Guard reward placeholder."
+  },
+  {
+    "number": 2,
+    "id": "agunilyos",
+    "name": "Agunilyos",
+    "value": 16,
+    "navia_guard": false,
+    "description": "High-cost Maseitai. First-pass compass pattern uses broad movement.",
+    "movement_profile": "wide_square",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "High-cost Maseitai. First-pass compass pattern uses broad movement."
+  },
+  {
+    "number": 3,
+    "id": "hamulus_garuda",
+    "name": "Hamulus Garuda",
+    "value": 9,
+    "navia_guard": false,
+    "description": "Flying-style first-pass diagonal movement.",
+    "movement_profile": "diag2",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Flying-style first-pass diagonal movement."
+  },
+  {
+    "number": 4,
+    "id": "garrison",
+    "name": "Garrison",
+    "value": 5,
+    "navia_guard": false,
+    "description": "Jump ability placeholder. May ignore first piece in path later.",
+    "movement_profile": "front_column",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Jump ability placeholder. May ignore first piece in path later."
+  },
+  {
+    "number": 5,
+    "id": "netol",
+    "name": "Netol",
+    "value": 5,
+    "navia_guard": false,
+    "description": "Return MBP from graveyard to open summon square.",
+    "movement_profile": "front_cross",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "restore_from_graveyard",
+    "dratp_description": "Return one Maseitai from your graveyard to an open summon square."
+  },
+  {
+    "number": 6,
+    "id": "gundrill",
+    "name": "Gundrill",
+    "value": 6,
+    "navia_guard": false,
+    "description": "Invoke 4G: move one BP to an open marked dot.",
+    "movement_profile": "king",
+    "movement_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "move_any_piece_placeholder",
+    "dratp_description": "Move one battlefield piece to an open marked space."
+  },
+  {
+    "number": 7,
+    "id": "tiny_kiggosh",
+    "name": "Tiny Kiggosh",
+    "value": 14,
+    "navia_guard": false,
+    "description": "Send chosen BP to Graveyard.",
+    "movement_profile": "wide_square",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "destroy_selected_placeholder",
+    "dratp_description": "Choose one battlefield piece and send it to graveyard."
+  },
+  {
+    "number": 8,
+    "id": "olip",
+    "name": "Olip",
+    "value": 4,
+    "navia_guard": true,
+    "description": "Navia Guard. Switch two battlefield pieces on Dratp.",
+    "movement_profile": "cross1",
+    "movement_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "swap_placeholder",
+    "dratp_description": "Switch the position of two battlefield pieces."
+  },
+  {
+    "number": 9,
+    "id": "gilgame_ii",
+    "name": "Gilgame II",
+    "value": 11,
+    "navia_guard": false,
+    "description": "Maseitai first-pass movement.",
+    "movement_profile": "cross2",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Maseitai first-pass movement."
+  },
+  {
+    "number": 10,
+    "id": "moses",
+    "name": "Moses",
+    "value": 10,
+    "navia_guard": false,
+    "description": "Maseitai first-pass movement.",
+    "movement_profile": "vertical2",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Maseitai first-pass movement."
+  },
+  {
+    "number": 11,
+    "id": "nebguard",
+    "name": "Nebguard",
+    "value": 3,
+    "navia_guard": false,
+    "description": "Maseitai first-pass movement.",
+    "movement_profile": "front_column",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Maseitai first-pass movement."
+  },
+  {
+    "number": 12,
+    "id": "gyullas_turtle",
+    "name": "Gyullas Turtle",
+    "value": 5,
+    "navia_guard": false,
+    "description": "Earn 6G per turn when Gyullas Turtle moves.",
+    "movement_profile": "cross1",
+    "movement_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "gain_gyullas_6",
+    "dratp_description": "Earn 6 Gyullas."
+  },
+  {
+    "number": 13,
+    "id": "kapinah",
+    "name": "Kapinah",
+    "value": 8,
+    "navia_guard": false,
+    "description": "On the turn you Dratp, immediately move to any open space.",
+    "movement_profile": "king",
+    "movement_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "move_self_anywhere_pending",
+    "dratp_description": "Move this piece to any open space."
+  },
+  {
+    "number": 14,
+    "id": "koma",
+    "name": "Koma",
+    "value": 8,
+    "navia_guard": false,
+    "description": "Send any MBP from battlefield to their keep. Koma to graveyard.",
+    "movement_profile": "horizontal2",
+    "movement_offsets": [
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "return_any_mbp_placeholder",
+    "dratp_description": "Send a Maseitai battlefield piece to its keep."
+  },
+  {
+    "number": 15,
+    "id": "schmidt",
+    "name": "Schmidt",
+    "value": 4,
+    "navia_guard": true,
+    "description": "Navia Guard. Invoke 2G to move adjacent to your Navia.",
+    "movement_profile": "cross1",
+    "movement_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "move_adjacent_navia_placeholder",
+    "dratp_description": "Move to an open space adjacent to your Navia."
+  },
+  {
+    "number": 16,
+    "id": "matogayu",
+    "name": "Matogayu",
+    "value": 4,
+    "navia_guard": true,
+    "description": "Navia Guard. Earn double Gyullas from every BP Matogayu takes.",
+    "movement_profile": "front_cross",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "passive_double_capture",
+    "dratp_description": "Passive: double Gyullas from every BP this piece takes."
+  },
+  {
+    "number": 17,
+    "id": "midrah",
+    "name": "Midrah",
+    "value": 11,
+    "navia_guard": false,
+    "description": "Blast every BP in his column to their Graveyards.",
+    "movement_profile": "horizontal2",
+    "movement_offsets": [
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "blast_column_placeholder",
+    "dratp_description": "Blast every BP in this column to Graveyards."
+  },
+  {
+    "number": 18,
+    "id": "kanaba",
+    "name": "Kanaba",
+    "value": 13,
+    "navia_guard": false,
+    "description": "Choose BP to freeze while Kanaba is on battlefield.",
+    "movement_profile": "cross1",
+    "movement_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "freeze_placeholder",
+    "dratp_description": "Freeze one BP while Kanaba remains on battlefield."
+  },
+  {
+    "number": 19,
+    "id": "sungyullas",
+    "name": "Sungyullas",
+    "value": 8,
+    "navia_guard": false,
+    "description": "Opponent loses 15G and your piece goes to graveyard.",
+    "movement_profile": "cross1",
+    "movement_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "opponent_lose_15_self_grave",
+    "dratp_description": "Opponent loses 15 Gyullas; this piece goes to graveyard."
+  },
+  {
+    "number": 20,
+    "id": "tanhoizer",
+    "name": "Tanhoizer",
+    "value": 10,
+    "navia_guard": false,
+    "description": "Summon one MBP from Keep to open marked dot if you do not move.",
+    "movement_profile": "vertical2",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "summon_from_keep_placeholder",
+    "dratp_description": "Summon one Maseitai from Keep to an open marked space."
+  },
+  {
+    "number": 21,
+    "id": "kanimiso",
+    "name": "Kanimiso",
+    "value": 5,
+    "navia_guard": false,
+    "description": "Maseitai first-pass movement.",
+    "movement_profile": "king",
+    "movement_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Maseitai first-pass movement."
+  },
+  {
+    "number": 22,
+    "id": "billpentod",
+    "name": "Billpentod",
+    "value": 8,
+    "navia_guard": false,
+    "description": "Invoke 3G: move all BGs up one space. Earn only from BPs taken.",
+    "movement_profile": "front_column",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "move_black_gulled_up",
+    "dratp_description": "Move all your movable Black Gulled forward one space."
+  },
+  {
+    "number": 23,
+    "id": "hansa",
+    "name": "Hansa",
+    "value": 12,
+    "navia_guard": false,
+    "description": "Follow arrows from center to edge; bounce once at edges.",
+    "movement_profile": "diag2",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Follow arrows from center to edge; bounce once at edges."
+  },
+  {
+    "number": 24,
+    "id": "kapinahs",
+    "name": "Kapinahs",
+    "value": 3,
+    "navia_guard": false,
+    "description": "Move to any open space on battlefield.",
+    "movement_profile": "vertical2",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "move_self_anywhere_pending",
+    "dratp_description": "Move to any open space on the battlefield."
+  },
+  {
+    "number": 25,
+    "id": "odd",
+    "name": "Odd",
+    "value": 6,
+    "navia_guard": false,
+    "description": "Place BGs from graveyard onto empty spaces on your second row.",
+    "movement_profile": "corners",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "restore_black_gulled_placeholder",
+    "dratp_description": "Place Black Gulled from Graveyard onto empty second-row spaces."
+  },
+  {
+    "number": 26,
+    "id": "coydrocomp",
+    "name": "Coydrocomp",
+    "value": 13,
+    "navia_guard": false,
+    "description": "Cannot be taken by opponent.",
+    "movement_profile": "horizontal2",
+    "movement_offsets": [
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "passive_cannot_be_taken",
+    "dratp_description": "Passive: cannot be taken by opponent."
+  },
+  {
+    "number": 27,
+    "id": "nemchant",
+    "name": "Nemchant",
+    "value": 7,
+    "navia_guard": false,
+    "description": "Reset all other MBP compasses to original pre-Dratp positions.",
+    "movement_profile": "wide_square",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "reset_compass_placeholder",
+    "dratp_description": "Reset Maseitai compasses to original positions."
+  },
+  {
+    "number": 28,
+    "id": "lord_kiggosh",
+    "name": "Lord Kiggosh",
+    "value": 25,
+    "navia_guard": false,
+    "description": "Blast 3x3 area to Graveyards.",
+    "movement_profile": "wide_square",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "blast_3x3_placeholder",
+    "dratp_description": "Blast 3x3 battlefield area."
+  },
+  {
+    "number": 29,
+    "id": "chugyullas",
+    "name": "Chugyullas",
+    "value": 8,
+    "navia_guard": false,
+    "description": "Earn 1G anytime you move a BP; modified Gulled rewards.",
+    "movement_profile": "front_cross",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "gain_gyullas_1",
+    "dratp_description": "Earn 1 Gyullas."
+  },
+  {
+    "number": 30,
+    "id": "chakrabat",
+    "name": "Chakrabat",
+    "value": 4,
+    "navia_guard": true,
+    "description": "Navia Guard. Invoke 2G to reduce opponent Gyullas by 4.",
+    "movement_profile": "cross1",
+    "movement_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "opponent_lose_4",
+    "dratp_description": "Opponent loses 4 Gyullas."
+  },
+  {
+    "number": 31,
+    "id": "papillonera",
+    "name": "Papillonera",
+    "value": 4,
+    "navia_guard": true,
+    "description": "Navia Guard. BP that takes you is sent to graveyard after turn.",
+    "movement_profile": "cross1",
+    "movement_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "passive_revenge",
+    "dratp_description": "Passive: piece that takes this is later sent to Graveyard."
+  },
+  {
+    "number": 32,
+    "id": "tagu",
+    "name": "Tagu",
+    "value": 12,
+    "navia_guard": false,
+    "description": "Move two more BPs, then send Tagu to graveyard.",
+    "movement_profile": "diag2",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "extra_moves_placeholder",
+    "dratp_description": "Move two more BPs; Tagu goes to Graveyard."
+  },
+  {
+    "number": 33,
+    "id": "viskunmateus",
+    "name": "Viskunmateus",
+    "value": 4,
+    "navia_guard": false,
+    "description": "Invoke 2G to reset own compass to pre-Dratp position.",
+    "movement_profile": "corners",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "reset_own_compass_placeholder",
+    "dratp_description": "Reset own compass to pre-Dratp position."
+  },
+  {
+    "number": 34,
+    "id": "laynard",
+    "name": "Laynard",
+    "value": 10,
+    "navia_guard": false,
+    "description": "Earn 10G from Dratping; still only costs half in GRZ.",
+    "movement_profile": "vertical2",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "gain_gyullas_10",
+    "dratp_description": "Earn 10 Gyullas from Dratping."
+  },
+  {
+    "number": 35,
+    "id": "nergalmesh",
+    "name": "Nergalmesh",
+    "value": 24,
+    "navia_guard": false,
+    "description": "Jump: may ignore first piece in path while moving.",
+    "movement_profile": "wide_square",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Jump: may ignore first piece in path while moving."
+  },
+  {
+    "number": 36,
+    "id": "kairas",
+    "name": "Kairas",
+    "value": 6,
+    "navia_guard": false,
+    "description": "On Dratp, Kairas returns to your Keep.",
+    "movement_profile": "cross2",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "return_self_to_keep",
+    "dratp_description": "Return Kairas to your Keep."
+  },
+  {
+    "number": 37,
+    "id": "ghoramedusa",
+    "name": "Ghoramedusa",
+    "value": 18,
+    "navia_guard": false,
+    "description": "Maseitai first-pass movement.",
+    "movement_profile": "wide_square",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Maseitai first-pass movement."
+  },
+  {
+    "number": 38,
+    "id": "gyullasbon",
+    "name": "Gyullasbon",
+    "value": 2,
+    "navia_guard": false,
+    "description": "Earn Gyullas equal to number of BPs in both graveyards.",
+    "movement_profile": "king",
+    "movement_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "gain_graveyard_count",
+    "dratp_description": "Earn Gyullas equal to number of BPs in both Graveyards."
+  },
+  {
+    "number": 39,
+    "id": "wishborn",
+    "name": "Wishborn",
+    "value": 13,
+    "navia_guard": false,
+    "description": "BPs on dotted squares may not be taken normally.",
+    "movement_profile": "corners",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "passive_dotted_safe",
+    "dratp_description": "Passive: BPs on dotted squares may not be taken normally."
+  },
+  {
+    "number": 40,
+    "id": "peojin",
+    "name": "Peojin",
+    "value": 18,
+    "navia_guard": false,
+    "description": "Move any one BP on battlefield to any open spot. Peojin to graveyard.",
+    "movement_profile": "king",
+    "movement_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "move_any_piece_anywhere_placeholder",
+    "dratp_description": "Move any one BP to any open spot; Peojin to Graveyard."
+  },
+  {
+    "number": 41,
+    "id": "neso",
+    "name": "Neso",
+    "value": 8,
+    "navia_guard": false,
+    "description": "Any one BP from enemy graveyard to your open summon square.",
+    "movement_profile": "corners",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "steal_from_enemy_grave_placeholder",
+    "dratp_description": "Move one BP from enemy Graveyard to your summon square."
+  },
+  {
+    "number": 42,
+    "id": "gilgame_iii",
+    "name": "Gilgame III",
+    "value": 5,
+    "navia_guard": false,
+    "description": "Maseitai first-pass movement.",
+    "movement_profile": "wide_square",
+    "movement_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Maseitai first-pass movement."
+  },
+  {
+    "number": 43,
+    "id": "oriondober",
+    "name": "Oriondober",
+    "value": 5,
+    "navia_guard": false,
+    "description": "Move to open enemy summon square. Dots ban summoning except Navia Guards. Immortal.",
+    "movement_profile": "left_right_front",
+    "movement_offsets": [
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "move_to_enemy_summon_placeholder",
+    "dratp_description": "Move to an open enemy summon square."
+  },
+  {
+    "number": 44,
+    "id": "sabageo",
+    "name": "Sabageo",
+    "value": 6,
+    "navia_guard": false,
+    "description": "Maseitai first-pass movement.",
+    "movement_profile": "vertical2",
+    "movement_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "post_dratp_offsets": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "movement_source": "first_pass_from_reference_images_needs_final_verification",
+    "dratp_effect": "generic_pulse",
+    "dratp_description": "Maseitai first-pass movement."
+  }
+]

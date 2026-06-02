@@ -1,0 +1,2 @@
+Navia Dratp Digital - Beta v1.1
+Hotfix: restored BoardView._draw_wrapped() to fix crash after setup.

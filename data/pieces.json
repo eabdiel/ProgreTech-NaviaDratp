@@ -1,0 +1,23 @@
+[
+  {
+    "id": "navia",
+    "name": "Navia",
+    "type": "navia",
+    "color": [230, 230, 255],
+    "movement_profile": "king"
+  },
+  {
+    "id": "gulled",
+    "name": "Gulled",
+    "type": "gulled",
+    "color": [255, 220, 120],
+    "movement_profile": "orthogonal"
+  },
+  {
+    "id": "maseitai",
+    "name": "Maseitai",
+    "type": "maseitai",
+    "color": [150, 210, 255],
+    "movement_profile": "diagonal"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {"id": "troll", "name": "Troll", "value": 4, "navia_guard": true},
+  {"id": "agunilyos", "name": "Agunilyos", "value": 16, "navia_guard": false},
+  {"id": "hamulus_garuda", "name": "Hamulus Garuda", "value": 9, "navia_guard": false},
+  {"id": "garrison", "name": "Garrison", "value": 5, "navia_guard": false},
+  {"id": "netol", "name": "Netol", "value": 5, "navia_guard": false},
+  {"id": "gundrill", "name": "Gundrill", "value": 6, "navia_guard": false},
+  {"id": "tiny_kiggosh", "name": "Tiny Kiggosh", "value": 14, "navia_guard": false}
+]

@@ -1,4 +1,4 @@
-# Navia Dratp Digital - Beta v1.1
+# Navia Dratp Digital - Beta v1.5
 
 ## New in v0.7
 
@@ -56,36 +56,32 @@ Next refinement step: tune each individual Maseitai's compass offsets and Dratp 
   - Complex effects are safely logged as placeholders for the next implementation round.
 
 
-## New in v0.9
+## Beta v1.4 Hotfix
 
-- Board moved lower again to prevent top coordinate labels from hitting the top player's Maseitai cost area.
-- Added a lower-right `Selected Piece` panel under Turn Overview.
-- Clicking a battlefield piece now displays:
-  - Name
-  - Owner
-  - Type
-  - Value/Cost
-  - Dratp readiness
-  - Dratp/effect text
-- Right-clicking a Maseitai also populates the Selected Piece panel.
-- Pieces that have successfully Dratp'ed now display a small `D` flag badge on the piece.
+- Rebuilt from stable v0.8.
+- Fixed `BoardView._draw_wrapped()` class binding.
+- Rewrote `GameApp._handle_board_click()` safely.
+- Fixes crash where empty-board clicks could reference `piece.name`.
+- Keeps lower board placement, selected Piece Effect panel, and Dratp flags.
 
 
-## Beta v1.0 Notes
+## Beta v1.4 Documentation Pass
 
-This is the first beta build of the Python prototype.
+- Added source headers to all Python files.
+- Added fan-project disclaimer and copyright notice.
+- Added author and project links:
+  - GitHub: https://github.com/eabdiel
+  - Project Website: https://progretech.com/navia_dratp_digital_archive_site/
+- Added hidden attribution footprint comments.
+- Added comments around important logic sections.
+- Added `COPYRIGHT_AND_FAN_PROJECT_NOTICE.md`.
+- Added `DEVELOPER_NOTES.md`.
 
-Final fixes included before beta:
 
-- Board moved lower again to leave visible breathing room between the top player's Maseitai row and the board.
-- Lower-right panel now clearly displays selected-piece effect details under Turn Overview.
-- The panel title is now `Piece Effect`.
-- Dratp flags remain visible on battlefield pieces after a successful Dratp.
-- Footer version updated to `v1.0-beta`.
+## Beta v1.5 UI Polish
 
-This beta is ready for broader rule testing and iterative effect implementation.
-
-## Beta v1.1 Hotfix
-
-- Restored `BoardView._draw_wrapped()` after the Beta v1 panel refactor.
-- Fixes crash after completing Maseitai setup and entering the board.
+- Raised the bottom player's Maseitai card row so the status/status detail bar no longer covers card costs.
+- Kept the status bar anchored at the bottom of the window.
+- Added more visual breathing room between bottom cards and the status bar.
+- Updated footer version to `v1.5-beta`.
+- Preserved the v1.4 documentation/copyright headers and fan-project notices.

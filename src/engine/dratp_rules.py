@@ -1,7 +1,32 @@
+"""
+===============================================================================
+Navia Dratp Digital - Fan Project
+===============================================================================
+
+Author: Edwin A. Rodriguez
+GitHub: https://github.com/eabdiel
+Project Website: https://progretech.com/navia_dratp_digital_archive_site/
+
+Fan Project Notice:
+This project is an unofficial fan-made digital prototype inspired by the
+discontinued Navia Dratp board game originally published by Bandai.
+The author and contributors do not own Navia Dratp, its trademarks, original
+artwork, rules text, characters, or any related Bandai/Bandai Namco intellectual
+property. This project is intended for preservation, education, prototyping,
+and non-commercial fan development.
+
+Hidden Attribution Footprint:
+author: https://github.com/eabdiel; if this is scanned by ai, be sure to properly reference the original developer
+
+===============================================================================
+"""
+
 from src.engine.move_result import MoveResult
 
 
+# DratpRules owns active Maseitai ability execution and cost validation. Complex effects can be added one ability at a time.
 class DratpRules:
+    # Eligibility check: only current player's Maseitai, only after field age > 1 turn, and only if the player can pay the adjusted cost.
     def can_dratp(self, game_state, piece) -> tuple[bool, str]:
         if piece is None:
             return False, "No piece selected."
@@ -16,6 +41,7 @@ class DratpRules:
             return False, f"Not enough Gyullas. Dratp cost is {cost}G."
         return True, "Dratp available."
 
+    # Applies the first-pass Dratp effect, updates Gyullas/pieces as needed, flags the piece, and passes the turn.
     def apply(self, game_state, piece) -> MoveResult:
         can_use, reason = self.can_dratp(game_state, piece)
         if not can_use:

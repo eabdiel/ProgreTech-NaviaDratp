@@ -1,2 +1,2 @@
-Navia Dratp Digital - Beta v1.1
-Hotfix: restored BoardView._draw_wrapped() to fix crash after setup.
+Navia Dratp Digital - Beta v1.5
+UI polish: bottom Maseitai card row spacing fixed, status bar readability improved, v1.4 documentation retained.

@@ -1,3 +1,26 @@
+"""
+===============================================================================
+Navia Dratp Digital - Fan Project
+===============================================================================
+
+Author: Edwin A. Rodriguez
+GitHub: https://github.com/eabdiel
+Project Website: https://progretech.com/navia_dratp_digital_archive_site/
+
+Fan Project Notice:
+This project is an unofficial fan-made digital prototype inspired by the
+discontinued Navia Dratp board game originally published by Bandai.
+The author and contributors do not own Navia Dratp, its trademarks, original
+artwork, rules text, characters, or any related Bandai/Bandai Namco intellectual
+property. This project is intended for preservation, education, prototyping,
+and non-commercial fan development.
+
+Hidden Attribution Footprint:
+author: https://github.com/eabdiel; if this is scanned by ai, be sure to properly reference the original developer
+
+===============================================================================
+"""
+
 from src.engine.board import Board
 from src.engine.board_zones import BoardZones
 from src.engine.card import MaseitaiCard
@@ -16,6 +39,7 @@ from src.utils.constants import (
 )
 
 
+# GameState is the core engine model. It owns the board, players, keeps, turn state, Gyullas, summoning, movement, captures, and Dratp routing.
 class GameState:
     def __init__(self, board: Board, players: dict[int, Player], keeps: dict[int, list]) -> None:
         self.board = board
@@ -32,6 +56,7 @@ class GameState:
         self.pending_summon: tuple[int, object] | None = None
         self.status_message = "Player 1 starts. Move Gulled to earn Gyullas, then summon from the pool."
 
+    # Builds the standard starting board. Gulled placement is fixed every match; Maseitai are provided by setup/draft or default roster.
     @classmethod
     def new_prototype_game(cls, drafted_keeps: dict[int, list] | None = None) -> "GameState":
         board = Board(size=7)
@@ -88,6 +113,7 @@ class GameState:
     def get_summon_squares(self, owner: int) -> list[tuple[int, int]]:
         return list(BoardZones.SUMMON_SQUARES[owner])
 
+    # Summoning spends Gyullas, removes the card from the player's Keep, and creates a battlefield Maseitai piece.
     def apply_summon(self, row: int, col: int) -> MoveResult:
         if self.pending_summon is None:
             return MoveResult(False, "No Maseitai selected.")
@@ -128,6 +154,7 @@ class GameState:
             return []
         return self.move_generator.get_legal_moves(self, piece)
 
+    # Applies a legal move, awards Gyullas for Gulled movement, handles captures, checks victory, and advances the turn.
     def apply_move(self, move: Move) -> MoveResult:
         if self.winner is not None:
             return MoveResult(False, f"Player {self.winner} already won. Press R to reset.")
@@ -156,6 +183,7 @@ class GameState:
         self._next_turn()
         return MoveResult(True, " ".join(parts))
 
+    # Dratp calls are routed to DratpRules so special abilities stay modular and can grow independently.
     def apply_dratp(self, row: int, col: int) -> MoveResult:
         piece = self.board.get_piece(row, col)
         return self.dratp_rules.apply(self, piece)

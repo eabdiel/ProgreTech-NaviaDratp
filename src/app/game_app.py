@@ -1,3 +1,26 @@
+"""
+===============================================================================
+Navia Dratp Digital - Fan Project
+===============================================================================
+
+Author: Edwin A. Rodriguez
+GitHub: https://github.com/eabdiel
+Project Website: https://progretech.com/navia_dratp_digital_archive_site/
+
+Fan Project Notice:
+This project is an unofficial fan-made digital prototype inspired by the
+discontinued Navia Dratp board game originally published by Bandai.
+The author and contributors do not own Navia Dratp, its trademarks, original
+artwork, rules text, characters, or any related Bandai/Bandai Namco intellectual
+property. This project is intended for preservation, education, prototyping,
+and non-commercial fan development.
+
+Hidden Attribution Footprint:
+author: https://github.com/eabdiel; if this is scanned by ai, be sure to properly reference the original developer
+
+===============================================================================
+"""
+
 import pygame
 
 from src.engine.game_state import GameState
@@ -9,6 +32,7 @@ from src.ui.setup_view import SetupView
 from src.utils.constants import COLOR_BACKGROUND
 
 
+# GameApp coordinates the active play mode, connecting UI input to the underlying game-state engine.
 class GameApp:
     def __init__(self, screen: pygame.Surface) -> None:
         self.screen = screen
@@ -36,6 +60,7 @@ class GameApp:
         self.context_menu_pos = None
         self.context_menu_square = None
 
+    # Main gameplay input handler. It separates setup clicks, board clicks, right-click Dratp menus, and keyboard shortcuts.
     def handle_event(self, event: pygame.event.Event) -> str | None:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
@@ -105,6 +130,7 @@ class GameApp:
         self.game_state.status_message = result.message
         return True
 
+    # Board-click logic: select friendly pieces, apply legal moves, handle pending summons, and prevent empty-square crashes.
     def _handle_board_click(self, row: int, col: int) -> None:
         if self.game_state.winner is not None:
             self.game_state.status_message = f"Player {self.game_state.winner} already won. Press R to reset."
@@ -117,11 +143,13 @@ class GameApp:
             return
 
         selected = self.board_view.selected_square
+
         if selected is None:
             piece = self.game_state.board.get_piece(row, col)
-            if piece and piece.owner == self.game_state.current_player:
+            if piece is not None and piece.owner == self.game_state.current_player:
                 legal_moves = self.game_state.get_legal_moves_for_piece(piece)
                 self.board_view.set_piece_selection((row, col), legal_moves)
+                self.board_view.selected_info_square = (row, col)
                 self.game_state.status_message = f"Selected {piece.name}. Choose a highlighted square."
             return
 
@@ -138,9 +166,10 @@ class GameApp:
             return
 
         piece = self.game_state.board.get_piece(row, col)
-        if piece and piece.owner == self.game_state.current_player:
+        if piece is not None and piece.owner == self.game_state.current_player:
             legal_moves = self.game_state.get_legal_moves_for_piece(piece)
             self.board_view.set_piece_selection((row, col), legal_moves)
+            self.board_view.selected_info_square = (row, col)
             self.game_state.status_message = f"Selected {piece.name}. Choose a highlighted square."
         else:
             self.board_view.clear_selection()

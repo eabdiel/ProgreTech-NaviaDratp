@@ -1,17 +1,23 @@
 # Navia Dratp Digital
 
+Unofficial Navia Dratp strategy board game recreation in Python/Pygame, with data-driven pieces and community rules verification.
+
+A project of **[ProgreTech LLC](https://progretech.com)**, owned and maintained by **Ed Rodriguez**. Third-party components and contributions retain their respective ownership and notices.
+
+[Project website](https://progretech.com/navia_dratp_digital_archive_site/) · [Report an issue](https://github.com/eabdiel/ProgreTech-NaviaDratp/issues) · [Contribute](CONTRIBUTING.md)
+
 > A fan-made Python recreation of the discontinued Navia Dratp strategy board game.
 
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![Language](https://img.shields.io/badge/python-3.11+-blue)
 ![Framework](https://img.shields.io/badge/pygame-2.x-green)
-![License](https://img.shields.io/badge/license-fan--project-lightgrey)
+![License](https://img.shields.io/badge/license-source--available-lightgrey)
 
 ---
 
 ## Overview
 
-Navia Dratp Digital is an open-source fan project that aims to preserve and modernize the classic **Navia Dratp** board game through a modular Python implementation.
+Navia Dratp Digital is a source-available fan project that aims to preserve and modernize the classic **Navia Dratp** board game through a modular Python implementation.
 
 The goal is not only to recreate the original gameplay, but to build a maintainable platform capable of supporting:
 
@@ -322,3 +328,19 @@ Next refinement step: tune each individual Maseitai's compass offsets and Dratp 
 - Added more visual breathing room between bottom cards and the status bar.
 - Updated footer version to `v1.5-beta`.
 - Preserved the v1.4 documentation/copyright headers and fan-project notices.
+
+## Collaboration
+
+Documentation corrections, small reproducible examples, and setup improvements are useful ways to help. Read [CONTRIBUTING.md](CONTRIBUTING.md) for issue reports, proposed changes, and attribution requirements.
+
+## License and reuse
+
+This repository uses custom ProgreTech source-available terms; see [license.md](license.md). Read the permitted uses, attribution, and contribution terms before reusing or submitting code. Public visibility is not an OSI-approved open-source license.
+
+Navia Dratp names, game artwork, card designs, and other third-party material retain their original ownership. The fan-project notice is not permission to redistribute third-party assets. Preserve the existing fan-project disclaimer.
+
+## More from ProgreTech
+
+
+
+Discover the wider portfolio at [progretech.com](https://progretech.com). These links identify related products; they do not imply a bundled integration or shared license.
